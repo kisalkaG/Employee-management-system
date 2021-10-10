@@ -1,10 +1,7 @@
 <?php 
 
+include './DB/dbConnection.php';
+$conn = OpenCon();
+include './DB/migrations.php';
 
-//initialize db setup
-// include './dbConnection.php';
-include './migrations.php';
-// $conn = OpenCon();
-
-//CloseCon($conn);
-//echo "Hello";
+echo "Hello";
